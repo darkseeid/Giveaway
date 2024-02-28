@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background : url(./6951586-black-apple-logo.jpg);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.leftside{
+    margin: auto;
+    padding:10px;
+}
+.explain{
+    color:white;
+    font-style:italic;
+}
+/*.rightside{
+    border: 1px solid black;
+} */
+img{
+    width:100%;
+    border-radius: 6%;
+
+}
+.giveawaytitle{
+    font-size: 250%;
+    color: white;
+    font-style: italic;
+}
+
+.timers{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 15px 0;
+    color: white;
+}
+.times{
+    margin-right: 10px;
+    padding: 15px;
+    background-color: black ;
+    border: 0;
+    border-radius: 20px 15px;
+    font-style: italic;
+}
+.counts{
+    color:white;
+   display: flex;
+   justify-content: center;
+}
+.labs{
+    color:white;
+}
+.deadline{
+    color: white;
+    font-style: italic;
+}
+
+
+ @media only screen and (max-width:600px){
+    .container{
+        flex-direction: column;
+        width:75%;
+    }
+    img{
+        width: 100%;
+    }
+ }
+    
